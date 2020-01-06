@@ -1,0 +1,6 @@
+framework module Pods_SmackNetworking {
+  umbrella header "Pods-SmackNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
