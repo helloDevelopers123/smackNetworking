@@ -15,6 +15,7 @@
 		681E120023C36BD000A3C3E6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681E11FE23C36BD000A3C3E6 /* SWRevealViewController.m */; };
 		681E120423C371E000A3C3E6 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E120323C371E000A3C3E6 /* ChatVC.swift */; };
 		681E120623C371F200A3C3E6 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E120523C371F200A3C3E6 /* ChannelVC.swift */; };
+		681E120923C47B6A00A3C3E6 /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E120823C47B6A00A3C3E6 /* gradientView.swift */; };
 		7BAFA4EAF44CD12A58E56EB4 /* Pods_SmackNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7656AB60FCA443A50DE7C2D4 /* Pods_SmackNetworking.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		681E11FF23C36BD000A3C3E6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SmackNetworking/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
 		681E120323C371E000A3C3E6 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		681E120523C371F200A3C3E6 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		681E120823C47B6A00A3C3E6 /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
 		7656AB60FCA443A50DE7C2D4 /* Pods_SmackNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D86415B06C79E02A1E4C3E /* Pods-SmackNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackNetworking.debug.xcconfig"; path = "Target Support Files/Pods-SmackNetworking/Pods-SmackNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 		681E11E723C3413D00A3C3E6 /* SmackNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				681E120723C47B4000A3C3E6 /* view */,
 				681E120223C371B800A3C3E6 /* model */,
 				681E120123C371B100A3C3E6 /* controller */,
 				681E11E823C3413D00A3C3E6 /* AppDelegate.swift */,
@@ -115,6 +118,14 @@
 			children = (
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		681E120723C47B4000A3C3E6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				681E120823C47B6A00A3C3E6 /* gradientView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		D143925A6C858871E248A9F9 /* Frameworks */ = {
@@ -243,6 +254,7 @@
 			files = (
 				681E120423C371E000A3C3E6 /* ChatVC.swift in Sources */,
 				681E11E923C3413D00A3C3E6 /* AppDelegate.swift in Sources */,
+				681E120923C47B6A00A3C3E6 /* gradientView.swift in Sources */,
 				681E11EB23C3413D00A3C3E6 /* SceneDelegate.swift in Sources */,
 				681E120023C36BD000A3C3E6 /* SWRevealViewController.m in Sources */,
 				681E120623C371F200A3C3E6 /* ChannelVC.swift in Sources */,
