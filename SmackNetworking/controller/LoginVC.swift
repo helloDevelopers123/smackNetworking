@@ -1,23 +1,26 @@
 //
-//  ChannelVC.swift
+//  LoginVC.swift
 //  SmackNetworking
 //
-//  Created by Ramez on 1/6/20.
+//  Created by Ramez on 1/8/20.
 //  Copyright © 2020 OnlineAuction. All rights reserved.
 //
 
 import UIKit
 
-class ChannelVC: UIViewController {
+class LoginVC: UIViewController {
 
-    @IBOutlet weak var loginBtn: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.revealViewController()?.rearViewRevealWidth = self.view.frame.size.width - 60;
     }
+    
+    @IBAction func closePressed(_ sender: Any) {
+        
+        dismiss(animated: true, completion: nil)
+    }
+    
     
 
     /*
@@ -30,7 +33,4 @@ class ChannelVC: UIViewController {
     }
     */
 
-    @IBAction func loginBtnPress(_ sender: Any) {
-        performSegue(withIdentifier: TO_LOGIN, sender: nil)
-    }
 }
